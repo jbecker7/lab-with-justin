@@ -31,7 +31,7 @@ if __name__ == '__main__':
             # generate a random list for us to sort;
             # the seed ensures that we generate the same random list on every run of the program
             random.seed(0)
-            xs = [random.random() for i in range(2**x)]
+            xs = [random.random() for i in range(2 ** x)]
         if args.input == 'sorted':
             # FIXME 2:
             # in this case, we should generate a list that is already sorted;
